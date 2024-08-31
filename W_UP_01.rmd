@@ -50,6 +50,10 @@ This graph shows that the skill players are able to do more push ups than the li
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+The skill players do about 3 times more push ups than the line players. 
 
 ## Inferential Results
 
